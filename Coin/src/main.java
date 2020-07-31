@@ -47,6 +47,11 @@ public class main {
         }
     }
     
+    /**
+     * This method executes a transaction for selling a coin.
+     * @param amount Specifies the amount being sold.
+     * @param owner Specifies the owner of the sale.
+     */
     public void sell(int amount, String owner){
         for (int i = 0; i < amount; i++) {
             if (!holder.get(owner).isEmpty()){
